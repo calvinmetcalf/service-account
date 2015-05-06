@@ -1,6 +1,6 @@
 {
   "name": "service-account",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "service accounts for google auth getting",
   "main": "index.js",
   "scripts": {
