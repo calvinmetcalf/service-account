@@ -30,5 +30,5 @@ module.exports = function getKey(key, email, scope, callback) {
     scope: scope
   });
   cache.set(id, authKey);
-  return authKey.nodify(callback);
+  return authKey.nodeify(callback);
 };
