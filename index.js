@@ -10,6 +10,7 @@ function makeID(key, email, scope) {
     .update(key)
     .update(email)
     .update(scope)
+    .digest()
     .toString('hex');
 }
 
